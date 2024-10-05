@@ -1,152 +1,119 @@
-<meta name='viewport' content='width=device-width, initial-scale=1'/><!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mohammed Fayaz - Full Stack Developer</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Muskan Khanam's Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+
+        .header {
+            background-color: #007bff;
+            color: white;
+            padding: 40px 0;
+            text-align: center;
+        }
+
+        .section-title {
+            margin-top: 40px;
+            margin-bottom: 20px;
+            color: #007bff;
+        }
+
+        .card {
+            margin-bottom: 30px;
+        }
+
+        footer {
+            text-align: center;
+            margin: 20px 0;
+            color: #777;
+        }
+
+        .skills li {
+            display: inline-block;
+            margin-right: 10px;
+            padding: 5px 10px;
+            background-color: #e9ecef;
+            border-radius: 5px;
+        }
+    </style>
 </head>
+
 <body>
+    <header class="header">
+        <h1>Muskan Khanam</h1>
+        <p>Phone: 9515824929 | Email: <a href="mailto:muskankhanum789@gmail.com" class="text-white">muskankhanum789@gmail.com</a></p>
+        <p>Address: Nagarkurnool, Telangana, 509209</p>
+    </header>
+
     <div class="container">
-        <!-- Header Section -->
-        <div class="header">
-            <img src="https://i.imgur.com/ZwlXtK3.jpeg" 
-                 alt="Mohammed Fayaz" 
-                 loading="lazy" 
-                 class="profile-img">
-            <h1>Mohammed Fayaz</h1>
-            <h2>Full Stack Developer</h2>
-        </div>
+        <section>
+            <h2 class="section-title">Objective</h2>
+            <p class="lead">Looking forward to an organization where I could enhance my knowledge and experience on technical aspects and also develop myself in various other fronts by working with diversified clients and experienced colleagues.</p>
+        </section>
 
-        <!-- Introduction Section -->
-        <div class="content">
-            <p>Hello! I'm Mohammed Fayaz, a passionate Full Stack Developer with over 1.7 years of experience specializing in backend development and database management. My expertise lies in creating efficient, scalable, and robust web applications, primarily using .NET technologies. I am proficient in various programming languages and frameworks and have a keen eye for detail, ensuring that every project I work on meets the highest standards of quality and performance.</p>
-            
-            <!-- LinkedIn Profile Link -->
-            <a class="linkedin-button" href="https://www.linkedin.com/in/mohammed-fayaz-03a085254?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">Connect with me on LinkedIn</a>
-        </div>
+        <section>
+            <h2 class="section-title">Education</h2>
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Master of Commerce</h5>
+                    <p class="card-text">Nijam College, Hyderabad <br> Nov 2022 - Sep 2024 <br> Graduated with 75% (Finance as major)</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Bachelor of Commerce</h5>
+                    <p class="card-text">Government Model Degree College, Kalwakurthy <br> Jul 2019 - Mar 2022 <br> Graduated with 81% (Computers as major)</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Higher Secondary Certificate</h5>
+                    <p class="card-text">Telangana Social Welfare Residential Educational Institute, Mahabubnagar <br> Jul 2017 - Mar 2019 <br> Passed with 75% (MEC as major)</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Secondary School Certificate</h5>
+                    <p class="card-text">Kasturba Gandhi Balika Vidhyalaya, Mahabubnagar <br> Jul 2016 - Mar 2017 <br> Passed with 75%</p>
+                </div>
+            </div>
+        </section>
 
-        <!-- Professional Skills Section -->
-        <div class="content">
-            <h3>Professional Skills</h3>
-            <ul>
-                <li>ASP.NET Core & MVC</li>
-                <li>.NET APIs Development</li>
-                <li>SQL & Database Management Systems (DBMS)</li>
-                <li>API Development & Integration</li>
-                <li>JavaScript & Frontend Basics</li>
-                <li>HTML5 & CSS3</li>
-                <li>Angular Framework</li>
-                <li>Continuous Integration/Continuous Delivery (CI/CD)</li>
-                <li>Teamwork & Collaboration</li>
+        <section>
+            <h2 class="section-title">Skills</h2>
+            <ul class="skills list-inline">
+                <li>Good communication skills</li>
+                <li>Adaptability</li>
+                <li>Quick learner</li>
+                <li>Attention to Detail</li>
             </ul>
-        </div>
+        </section>
 
-        <!-- Experience Section -->
-        <div class="content">
-            <h3>Experience</h3>
-            <p><strong>Dot Net Full Stack Developer</strong></p>
-            <p>Revalsys Technologies, Hyderabad, Telangana, India</p>
-            <p><em>Feb 2023 – Present (1 yr 7 mos)</em></p>
-            <p>As a Dot Net Full Stack Developer at Revalsys Technologies, I have been involved in designing, developing, and deploying web applications, focusing on both backend and frontend technologies. My primary responsibilities include working on ASP.NET Core projects, handling database management, and implementing APIs to ensure seamless data flow between the client and server.</p>
-        </div>
+        <section>
+            <h2 class="section-title">Languages</h2>
+            <ul>
+                <li>English</li>
+                <li>Hindi</li>
+                <li>Telugu</li>
+            </ul>
+        </section>
     </div>
+
+    <footer>
+        <p>&copy; 2024 Muskan Khanam. All Rights Reserved.</p>
+    </footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
+
 </html>
-<style>body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
-    margin: 0;
-    padding: 0;
-}
-
-.container {
-    max-width: 900px;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.header {
-    text-align: center;
-    margin-bottom: 30px;
-}
-
-.profile-img {
-    border-radius: 50%;
-    width: 150px;
-    height: 150px;
-}
-
-.header h1 {
-    margin: 20px 0 10px 0;
-    font-size: 2em;
-    color: #0073b1;
-}
-
-.header h2 {
-    margin: 0;
-    font-size: 1.5em;
-    color: #666;
-}
-
-.content {
-    margin-bottom: 20px;
-    line-height: 1.6;
-}
-
-.content p {
-    margin: 10px 0;
-}
-
-.content ul {
-    list-style: none;
-    padding: 0;
-}
-
-.content ul li {
-    background-color: #f9f9f9;
-    padding: 10px;
-    margin-bottom: 5px;
-    border-left: 5px solid #0073b1;
-}
-
-.linkedin-button {
-    display: inline-block;
-    margin-top: 20px;
-    padding: 10px 20px;
-    background-color: #0073b1;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 5px;
-}
-
-.linkedin-button:hover {
-    background-color: #005a8b;
-}
-</style><script>// script.js
-document.addEventListener("DOMContentLoaded", function() {
-    var lazyloadImages = document.querySelectorAll("img.lazyload");
-    if ("IntersectionObserver" in window) {
-        let observer = new IntersectionObserver((entries, observer) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    let img = entry.target;
-                    img.src = img.getAttribute("data-src");
-                    img.classList.remove("lazyload");
-                    observer.unobserve(img);
-                }
-            });
-        });
-        lazyloadImages.forEach(img => observer.observe(img));
-    } else {
-        // Fallback for browsers that don't support IntersectionObserver
-        lazyloadImages.forEach(img => {
-            img.src = img.getAttribute("data-src");
-            img.classList.remove("lazyload");
-        });
-    }
-});
-</script>
